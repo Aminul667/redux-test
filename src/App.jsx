@@ -1,9 +1,10 @@
 import "./App.css";
+import Home from "./pages/Home";
 
 function App() {
   return (
     <>
-      <h2 className="bg-purple-400 text-2xl">This is Redux</h2>
+      <Home></Home>
     </>
   );
 }
